@@ -1,7 +1,5 @@
 from starlette.responses import RedirectResponse
-from device_models.routes import *
-
-from beverages.routes import app
+from init_app import app
 import uvicorn
 
 
