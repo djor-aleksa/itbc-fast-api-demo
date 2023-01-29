@@ -79,3 +79,4 @@ class DeviceModelsRepository:
             raise Exception("Not updated.")
         elif self.my_cursor.rowcount == 1:
             return self.get_by_id(device_model_id)
+

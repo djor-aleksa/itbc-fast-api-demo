@@ -1,1 +1,1 @@
-from .routes import *
+from .routes import device_model_router
